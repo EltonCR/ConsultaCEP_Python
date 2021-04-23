@@ -32,7 +32,6 @@ entrada_caixa.grid(column=1, row=2)
 instruções = tk.Label(root, text="Digite o CEP (somente números)", font="Arial")
 instruções.grid(columnspan=3,column=0, row=1)
 
-
 #botao de busca
 buscar_cep = tk.StringVar()
 # command=lambda:busca_cep() chama método
@@ -43,8 +42,6 @@ browser_btn.grid(column=1, row=4)
 #assinatura
 assinatura = tk.Label(root, text="Elton C. Ramos", font="Arial")
 assinatura.grid(columnspan=3,column=0, row=10)
-
-
 
 
 def busca_cep():
@@ -101,6 +98,7 @@ def busca_cep():
 
 
 root.mainloop()
+
 
 # Chama método
 if __name__ == '__main__':
