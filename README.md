@@ -13,7 +13,7 @@ O código é de simples execução, bastando apenas chamar via linha de comando 
 
 Algumas funcionalidades ainda estão para serem implementadas assim como correções de bugs. Preferi para subir no GitHub para uma maior transparência desses processos.
 
-**Bibliotecas utilizadas**
+**Bibliotecas utilizadas:**
 
 * requests
 * tkinter
